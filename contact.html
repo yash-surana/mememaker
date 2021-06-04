@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Memes</title>
+    <link rel="stylesheet" href="mystyle.css">
+    
+</head>
+<body style="color: white;">
+
+    <div class="nav-div">
+        <div><h1 class="nav-img">MakeAMeme</h1></div>
+        <ul class="nav-list">
+            <li class="link-inline navigation-link"><a class="link-deco nav-link" target="_blank" href="index.html">Home</a></li>
+             <li class="link-inline navigation-link"><a class="link-deco nav-link" target="_blank" href="memegenerate.html" target="_blank">Meme Generator</a></li>
+             <li class="link-inline navigation-link "><a class="link-deco nav-link"   href="best.html" >Best Memes</a></li>
+           
+            <li class="link-inline navigation-link"><a class="link-deco active nav-link" target="_blank" href="#" target="_blank">Contact</a></li>
+        </ul>
+    </div>
+
+    <form action="contact">
+        <h2>What kind of memes do you like?</h2>
+        <h3>Fill this form below and get regular memes of your choice!</h3>
+        <table cellpadding="10">
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" name="firstname" placeholder="First Name" required>
+                </td>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input type="text" name="lastname" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number:
+                </td>
+                <td>
+                    <input type="number" name="phone" size="50" value="0" >
+                </td>
+                <td>
+                    Email ID:
+                </td>
+                <td>
+                    <input type="email" name="email" placeholder="xyz@gmail.com" required>
+                </td>
+            </tr>
+        </table>
+        <h3>Choose a genre:</h3>
+            <div>
+                
+                   <input type="checkbox" id="comics" name="comics" value="Comics" style="padding: 10px;" onchange="checkboxfunc()"> 
+                        <label class="checkbox" for="Comics"> Comics</label>
+                        <input class="checkbox" type="checkbox" id="political" name="political" value="political" onchange="checkboxfunc()">
+                        <label class="checkbox" for="political"> Political</label>
+                        <input class="checkbox" type="checkbox" id="knockknock" name="knockknock" value="knockknock" onchange="checkboxfunc()">
+                        <label class="checkbox" for="knockknock"> Knock-knock</label>
+                        <input class="checkbox" type="checkbox" id="socialmedia" name="socialmedia" value="socialmedia" onchange="checkboxfunc()">
+                        <label class="checkbox" for="socialmedia"> Social Media Trends</label>
+                        <input class="checkbox" type="checkbox" id="darkhumour" name="darkhumour" value="darkhumour" onchange="checkboxfunc()">
+                        <label class="checkbox" for="darkhumour"> Dark Humour</label>
+                        <br><br>
+                        <input class="checkbox" type="checkbox" id="dadjokes" name="dadjokes" value="dadjokes" onchange="checkboxfunc()">
+                        <label class="checkbox" for="dadjokes"> Dad Jokes</label>
+                        <input class="checkbox" type="checkbox" id="wholesome" name="wholesome" value="wholesome" onchange="checkboxfunc()">
+                        <label class="checkbox" for="wholesome"> Wholesome</label>
+            </div>
+                    
+                
+            
+        
+        <br>
+        <input type="submit" class="form-button">
+        <input type="reset" class="form-button">
+
+    </form>
+
+    <!-- footer -->
+    <footer class = "footer">
+        <div class="footer-header"><strong> want to see more memes?</strong></div>
+        <p style="font-size: larger; margin-bottom: 0px;"> start clicking 👇</p>
+        <br>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link-deco" href="https://in.pinterest.com/search/pins/?q=memes&rs=typed&term_meta[]=memes%7Ctyped" target="_blank" rel="noopener noreferrer"> <img src="pinterest.png" alt="Pinterest Link">
+                    
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link-deco" href="https://www.instagram.com/explore/tags/memes/?hl=en" target="_blank" rel="noopener noreferrer">
+                    <img src="instagram.png" alt="Instagram Link">
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link-deco" href="https://twitter.com/search?q=%23memes&src=typed_query" target="_blank" rel="noopener noreferrer">
+                    <img src="twitter (1).png" alt="Twitter Link">
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+</body>
+</html>
